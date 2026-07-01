@@ -1,0 +1,6 @@
+{
+  "name": "Weather Intelligence",
+  "description": "An AI-powered Weather Intelligence application providing real-time conditions, 7-day forecasts, and hyper-practical planning recommendations backed by Gemini.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
