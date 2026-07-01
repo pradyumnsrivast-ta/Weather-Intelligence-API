@@ -15,6 +15,7 @@ View your app in AI Studio: https://ai.studio/apps/c9a615f0-e518-4ce1-a13e-0c4ca
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+2. Docker Instructions
+   `docker build -t weather-intelligence .`
+   `docker run --rm -p 3000:3000 weather-intelligence`
